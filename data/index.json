@@ -1,0 +1,56 @@
+{
+  "notes": [
+    {
+      "id": "2008-arbaugh-coi-survey",
+      "file": "notes/2008-arbaugh-coi-survey.md",
+      "title": "Developing a Community of Inquiry Instrument: Testing a Measure of the Community of Inquiry Framework Using a Multi-Institutional Sample",
+      "title_zh": "發展探究社群量表：以多校樣本檢驗 CoI 架構的測量工具",
+      "authors": "Arbaugh, J. B., Cleveland-Innes, M., Diaz, S. R., Garrison, D. R., Ice, P., Richardson, J. C., & Swan, K. P.",
+      "year": 2008,
+      "venue": "The Internet and Higher Education, 11(3–4), 133–136",
+      "tags": ["CoI", "量表與測量", "方法論", "社會臨場感", "教學臨場感", "認知臨場感"],
+      "related": 5,
+      "read_date": "2026-11-08",
+      "summary": "本文發展並以美加四校、287 位研究生樣本檢驗 34 題 CoI 量表，結果支持認知、社會、教學三種臨場感的構念效度，但教學臨場感可能再分成「課程設計與組織」與「課程進行中的教師行為」兩個因素。"
+    },
+    {
+      "id": "2007-garrison-coi-review",
+      "file": "notes/2007-garrison-coi-review.md",
+      "title": "Researching the Community of Inquiry Framework: Review, Issues, and Future Directions",
+      "title_zh": "探究社群架構的研究：回顧、問題與未來方向",
+      "authors": "Garrison, D. R., & Arbaugh, J. B.",
+      "year": 2007,
+      "venue": "The Internet and Higher Education, 10(3), 157–172",
+      "tags": ["CoI", "文獻回顧", "社會臨場感", "教學臨場感", "認知臨場感", "線上教學"],
+      "related": 4,
+      "read_date": "2026-11-06",
+      "summary": "這篇回顧 CoI 提出之後的相關研究，分別檢視整體架構以及社會、教學、認知三種臨場感的發現，並指出未來需要更多量化、跨領域研究，以及找出會調節架構與學習成果之間關係的因素。"
+    },
+    {
+      "id": "2000-garrison-critical-inquiry",
+      "file": "notes/2000-garrison-critical-inquiry.md",
+      "title": "Critical Inquiry in a Text-Based Environment: Computer Conferencing in Higher Education",
+      "title_zh": "文本環境中的批判探究：高等教育的電腦會議",
+      "authors": "Garrison, D. R., Anderson, T., & Archer, W.",
+      "year": 2000,
+      "venue": "The Internet and Higher Education, 2(2–3), 87–105",
+      "tags": ["CoI", "認知臨場感", "社會臨場感", "教學臨場感", "線上教學", "電腦會議"],
+      "related": 5,
+      "read_date": "2026-11-02",
+      "summary": "這篇提出探究社群（Community of Inquiry, CoI）架構，主張線上教育經驗由認知臨場感、社會臨場感與教學臨場感三者共同構成，並從電腦會議逐字稿整理出可用來分析與設計的指標。"
+    },
+    {
+      "id": "1999-rourke-social-presence",
+      "file": "notes/1999-rourke-social-presence.md",
+      "title": "Assessing Social Presence in Asynchronous Text-based Computer Conferencing",
+      "title_zh": "評量非同步文字電腦會議中的社會臨場感",
+      "authors": "Rourke, L., Anderson, T., Garrison, D. R., & Archer, W.",
+      "year": 1999,
+      "venue": "Journal of Distance Education, 14(2), 50–71",
+      "tags": ["社會臨場感", "CoI", "內容分析", "電腦會議", "討論區", "方法論"],
+      "related": 5,
+      "read_date": "2026-11-04",
+      "summary": "本文把 CoI 中的社會臨場感單獨展開，定義為學習者能在探究社群裡社會地、情感地投射自己，並提出一套從非同步會議逐字稿做內容分析的評量模板。"
+    }
+  ]
+}

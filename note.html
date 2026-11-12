@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="探究筆記的單則論文閱讀筆記。">
+  <title>筆記｜探究筆記</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="探究筆記首頁">
+        <svg class="brand-mark" width="28" height="28" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="26" cy="28" r="14" fill="none" stroke="currentColor" stroke-width="3"/>
+          <circle cx="38" cy="28" r="14" fill="none" stroke="currentColor" stroke-width="3" opacity="0.7"/>
+          <circle cx="32" cy="40" r="14" fill="none" stroke="currentColor" stroke-width="3" opacity="0.85"/>
+        </svg>
+        <span class="brand-text">
+          <strong>探究筆記</strong>
+          <span>論文閱讀筆記站</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="主要">
+        <a href="index.html">全部筆記</a>
+        <a href="index.html#about">關於本站</a>
+        <a href="AGENTS.md">AGENTS.md</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap note-page">
+    <p class="back"><a href="index.html">← 回到全部筆記</a></p>
+    <div id="note-root">
+      <p class="muted">載入筆記中……</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>探究筆記 · 潘聖融 · 僅供個人研究與課程作業使用。引用請回原論文。</p>
+    </div>
+  </footer>
+
+  <script src="js/marked.min.js"></script>
+  <script src="js/app.js"></script>
+  <script>PaperNotes.renderNote();</script>
+</body>
+</html>

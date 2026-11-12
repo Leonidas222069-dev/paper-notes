@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="潘聖融的論文閱讀筆記站：台馬線上教學、探究社群（CoI）與社會臨場感。一篇論文，一則固定格式的筆記。">
+  <title>探究筆記｜論文閱讀筆記站</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="探究筆記首頁">
+        <svg class="brand-mark" width="28" height="28" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="26" cy="28" r="14" fill="none" stroke="currentColor" stroke-width="3"/>
+          <circle cx="38" cy="28" r="14" fill="none" stroke="currentColor" stroke-width="3" opacity="0.7"/>
+          <circle cx="32" cy="40" r="14" fill="none" stroke="currentColor" stroke-width="3" opacity="0.85"/>
+        </svg>
+        <span class="brand-text">
+          <strong>探究筆記</strong>
+          <span>論文閱讀筆記站</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="主要">
+        <a href="index.html" aria-current="page">全部筆記</a>
+        <a href="#about">關於本站</a>
+        <a href="AGENTS.md">AGENTS.md</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap">
+      <p class="eyebrow">潘聖融｜宜大 AI 碩一</p>
+      <h1>一篇論文，<br>一則固定格式的筆記。</h1>
+      <p class="lede">這是給自己論文用的閱讀筆記站，主題圍繞台灣—馬來西亞線上教學、Community of Inquiry（探究社群）與社會臨場感。規則寫在 <a href="AGENTS.md">AGENTS.md</a>，之後要加新文獻，依同一套模板即可繼續寫下去。</p>
+    </section>
+
+    <section class="wrap toolbar" aria-label="搜尋與篩選">
+      <label class="search">
+        <span class="visually-hidden">搜尋筆記</span>
+        <input type="search" id="q" placeholder="搜尋篇名、作者、摘要……" autocomplete="off">
+      </label>
+      <div class="meta-row">
+        <p id="count" class="count" aria-live="polite"></p>
+        <button type="button" class="text-btn" id="clear-filters" hidden>清除篩選</button>
+      </div>
+      <div id="tag-bar" class="tag-bar" role="group" aria-label="依標籤篩選"></div>
+    </section>
+
+    <section class="wrap">
+      <h2 class="visually-hidden">筆記列表</h2>
+      <div id="list" class="card-list"></div>
+      <p id="empty" class="empty" hidden>沒有符合的筆記。試試其他關鍵字，或清除標籤篩選。</p>
+    </section>
+
+    <section id="about" class="wrap about">
+      <h2>關於本站</h2>
+      <p>站主是宜蘭大學人工智慧碩士學位學程碩一的潘聖融。這個小站把論文筆記規格化：每則筆記都有相同的書目欄位，以及「一句話摘要、研究問題、方法、主要發現、與我論文的關聯、可引用句／重點、疑問與延伸」七個章節。</p>
+      <p>這樣做是為了讓之後的自己——以及協助寫作的 AI——可以依 <a href="AGENTS.md">AGENTS.md</a> 的規則繼續新增頁面，而不必每次重新發明格式。新增方式：複製 <code>templates/note-template.md</code>，依檔名規則放到 <code>notes/</code>，再更新 <code>data/index.json</code>。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>探究筆記 · 潘聖融 · 僅供個人研究與課程作業使用。引用請回原論文。</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>PaperNotes.renderIndex();</script>
+</body>
+</html>
